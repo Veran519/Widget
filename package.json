@@ -1,0 +1,23 @@
+{
+  "name": "widget",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "postcss": "^8.5.29",
+    "postcss-loader": "^8.2.1",
+    "to-string-loader": "^1.2.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  }
+}
